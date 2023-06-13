@@ -1,0 +1,423 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header Start*/
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #FFFEFF;
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 20px;
+    padding: 10px;
+
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+    
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: #414141;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+header .nav ul li a:hover{
+    color:#8490FF
+}
+/*Header End*/
+
+
+
+/*Section1 Start*/
+.section1{
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.half1, .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.half2{
+    padding-right: 160px;
+    margin-top: 50px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.half1 h1{
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.half1 p{
+    color: rgba(78, 78, 78, 0.7);
+}
+.half1 input{
+    padding: 10px 25px;
+    background-color: #8293FF;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 146, 255, 0.5);
+    transition: all ease-in 0.5s 0.1s;
+}
+/*Section1 End*/
+
+
+
+/*Section2 Start*/
+.section2{
+    background-color: #FFFEFF;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.section2 .photo, .text{
+    width: 50%;
+}
+.section2 .photo{
+    margin-left: 100px;
+    
+}
+.section2 .text{
+    padding-right: 160px;
+    padding-left: 100px;
+    margin-top: 0px;
+}
+.section2 .photo img{
+    max-width: 100%;
+    height: auto;
+}
+.section2 .text h3{
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.section2 .text h1{
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section2 .text p{
+    color: rgba(78, 78, 78, 0.7);
+}
+.section2 .text input{
+    padding: 10px 25px;
+    background-color: #8293FF;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.section2 .text input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 146, 255, 0.5);
+    transition: all ease-in 0.5s 0.1s;
+}
+
+/*Section2 End*/
+
+
+/*Section3 Start*/
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.firsttext h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+.firsttext p{
+    width: 600px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+.services{
+    width: 80%;
+    margin: 0 auto;
+    padding: 45px;
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.ser2{
+    padding-top: 30px;
+}
+.services h1{
+   color: rgba(0, 0, 0, 0.7);
+}
+.services p{
+    color: rgba(0, 0, 0, 0.5);
+ }
+.ser1 div:hover{
+    background-color:#8392FF;
+}
+.ser1 div:hover h1{
+    color: white;
+}
+.ser1 div:hover p{
+    color: white;
+}
+.ser2 div:hover{
+    background-color:#8392FF;
+}
+.ser2 div:hover h1{
+    color: white;
+}
+.ser2 div:hover p{
+    color: white;
+}
+
+/*Section3 End*/
+
+
+/*Section4 Start*/
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: #8293FF;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+.section4 h1{
+    font-size: 45px;
+    line-height: 0px;
+}
+.section4 h1, .section4 p{
+    text-align: center;
+    color: #FFFEFF;
+}
+/*Section4 End*/
+
+
+
+/*Section5 Portfolio part Start*/
+.sec5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.sec5 .text5{
+    text-align: center;
+}
+.sec5 .text5 h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.8);
+    padding-top: 100px;
+}
+.sec5 .text5 p{
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: -20px;
+}
+.sec5 .manu{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.sec5 .manu ul{
+    list-style: none;
+}
+.sec5 .manu ul li {
+    float: left;
+}
+.sec5 .manu ul li a{
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+.sec5 .pimg{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.sec5 .pimg div{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.sec5 .pimg div h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.sec5 .pimg div p{
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 0px;
+}
+.sec5 div figure{
+    width: 340px;
+    height: 339px;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(40deg, #8490FF 40%, #62bdfc 100%);
+    overflow: hidden;
+    border-radius: 3%;
+}
+.sec5 div figure:hover img{
+    opacity: 0.3;
+    transition: all 0.3s ease-in-out;
+}
+
+/*Section5 Portfolio part End*/
+
+
+/*Section6 Pricing part Start*/
+.sec6{
+    width: 100%;
+    height: 700px;
+}
+.sec6 .text6{
+    text-align: center;
+    padding: 2% 0;
+}
+.sec6 .text6 h1{
+    font-size: 40px;
+    padding-top: 30px;
+    line-height: 0px;
+}
+.sec6 .text6 p{
+    color: rgba(0, 0, 0, 0.7);
+}
+.sec6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+
+.sec6 .card .card1{
+    width: 250px;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(249, 249, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.sec6 .card .card1 h1{
+    font-size: 40px;
+    padding-top: 8px;
+}
+.sec6 .card .card1 .price{
+    font-size: 30px;
+}
+.sec6 .card .card1 input{
+    outline: none;
+    border: 1px solid white;
+    padding: 6px 60px;
+    background-color: #8293FF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sec6 .card .card1:hover{
+    background-color: #8293FF;
+    color: white;
+    transition: all 0.2s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.5);
+}
+.sec6 .card .card1:hover input{
+    color: rgba(0, 0, 0, 0.8);
+    background-color: white;
+}
+/*Section6 Pricing part End*/
+
+
+/*Footer Start*/
+footer{
+    width: 100%;
+    height: 400px;
+    background-color:#04091E;
+    color: white;
+    margin-top: 100px;
+    padding: 100px;
+}
+footer .foot{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .foot .foot1{
+    width: 30%;
+    margin: auto;
+}
+footer .foot .foot1 p{
+    color: #444650;
+}
+
+
+/*Footer End*/
+
+
+
+
+
+
